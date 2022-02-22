@@ -16,18 +16,18 @@ const Navbar = () => {
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Nuestra Institución
                             </a>
-                            <ul class="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
+                            <ul className="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
                                 <li><a href="#">Some action</a></li>
                                 <div className="dropdown-divider"></div>
                                 <li><a href="#">Some other action</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Hover me for more options</a>
-                                    <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="#">Second level</a></li>
-                                    <li class="dropdown-submenu">
+                                <li className="divider"></li>
+                                <li className="dropdown-submenu">
+                                    <a tabIndex="-1" href="#">Hover me for more options</a>
+                                    <ul className="dropdown-menu">
+                                    <li><a tabIndex="-1" href="#">Second level</a></li>
+                                    <li className="dropdown-submenu">
                                         <a href="#">Even More..</a>
-                                        <ul class="dropdown-menu">
+                                        <ul className="dropdown-menu">
                                             <li><a href="#">3rd level</a></li>
                                             <li><a href="#">3rd level</a></li>
                                         </ul>
@@ -42,18 +42,18 @@ const Navbar = () => {
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Oferta Académica
                             </a>
-                            <ul class="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
+                            <ul className="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
                                 <li><a href="#">Some action</a></li>
                                 <div className="dropdown-divider"></div>
                                 <li><a href="#">Some other action</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Hover me for more options</a>
-                                    <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="#">Second level</a></li>
-                                    <li class="dropdown-submenu">
+                                <li className="divider"></li>
+                                <li className="dropdown-submenu">
+                                    <a tabIndex="-1" href="#">Hover me for more options</a>
+                                    <ul className="dropdown-menu">
+                                    <li><a tabIndex="-1" href="#">Second level</a></li>
+                                    <li className="dropdown-submenu">
                                         <a href="#">Even More..</a>
-                                        <ul class="dropdown-menu">
+                                        <ul className="dropdown-menu">
                                             <li><a href="#">3rd level</a></li>
                                             <li><a href="#">3rd level</a></li>
                                         </ul>
@@ -68,17 +68,17 @@ const Navbar = () => {
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Transparencia
                             </a>
-                            <ul class="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
+                            <ul className="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
                                 <li><a href="#">Some action</a></li>
                                 <li><a href="#">Some other action</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Hover me for more options</a>
-                                    <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="#">Second level</a></li>
-                                    <li class="dropdown-submenu">
+                                <li className="divider"></li>
+                                <li className="dropdown-submenu">
+                                    <a tabIndex="-1" href="#">Hover me for more options</a>
+                                    <ul className="dropdown-menu">
+                                    <li><a tabIndex="-1" href="#">Second level</a></li>
+                                    <li className="dropdown-submenu">
                                         <a href="#">Even More..</a>
-                                        <ul class="dropdown-menu">
+                                        <ul className="dropdown-menu">
                                             <li><a href="#">3rd level</a></li>
                                             <li><a href="#">3rd level</a></li>
                                         </ul>
@@ -96,4 +96,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
